@@ -90,10 +90,7 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -193,10 +190,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -249,7 +242,7 @@ a:hover {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+    color: #f15912;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -284,7 +277,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 52px;
+    color: white;
 }
 
 .navbar {
@@ -325,7 +319,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -651,7 +645,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -677,11 +670,10 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -692,7 +684,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -710,21 +702,17 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
 .med-width-whitespace {
-    max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
 
 h4 {
     color: #333333!important;
@@ -753,22 +741,16 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #000000c7;
     padding: 40px 40px 40px 40px;
 }
 
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
-}
+
 
 .bgc-white {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -780,20 +762,22 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #2B0000;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #e9723a!important;
+    color: #000000;
+    transform: scale(1.3);
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #e9723a;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #f05f1b;
+    font-size: 25px;
 }
 
 .ltc-atomic-tangerine {
@@ -1036,4 +1020,25 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/****** Optimisation visuelles******/
+
+.navbar-brand img 
+{
+    height: 60px;
+}
+.row > h2 
+{
+    color: white;
+    font-size: 30px;
+}
+.social
+{
+    color: white;
+}
+
+.social > span:hover 
+{
+    transform: scale(1.5);
 }

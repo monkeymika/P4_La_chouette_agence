@@ -1392,7 +1392,6 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
     background-color: #fff
 }
 
@@ -1412,7 +1411,6 @@ a {
 
 a:focus,
 a:hover {
-    color: #23527c;
     text-decoration: underline
 }
 
@@ -2304,7 +2302,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
