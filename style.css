@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
@@ -437,6 +437,8 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    color: #2B0000;
+    font-size: 30px;
 }
 
 .btn {
@@ -652,7 +654,9 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 48px;
+    color: #2B0000;
+    font-weight: bold;
 }
 
 .hero-bloc-text-sub {
@@ -675,6 +679,8 @@ p {
 
 .tight-width-whitespace {
     margin: auto auto auto auto;
+    padding: 10px;
+    background: #000000c7;
 }
 
 .h1 {
@@ -792,11 +798,6 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 
 .bg-banniere {
     background-image: url("img/min-la-chouette-agence-banniere.jpg");
@@ -1028,17 +1029,46 @@ h4 {
 {
     height: 60px;
 }
+
+
 .row > h2 
 {
     color: white;
     font-size: 30px;
 }
+
 .social
 {
     color: white;
 }
 
-.social > span:hover 
+.social > i:hover 
 {
     transform: scale(1.5);
+}
+/* style du formulaire de contact */ 
+.formulaire
+{
+   display: grid;
+   place-items: center;
+}
+
+.contact
+{
+    margin-top: 25px;
+    text-align: center;
+    border: 2px solid #2B0000;
+    padding: 15px;
+}
+
+label 
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+input:valid
+{
+    border: 2px solid #F3976C;
 }
