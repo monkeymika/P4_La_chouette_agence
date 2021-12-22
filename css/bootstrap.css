@@ -4223,7 +4223,9 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    width: 100%;
+    
+    
 }
 
 .btn-block+.btn-block {
@@ -5076,7 +5078,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-header {
-        float: left
+        float: left;
+    }
+}
+
+@media (max-width:443px) {
+    img {
+        width: 200px;
     }
 }
 
