@@ -4242,7 +4242,7 @@ input[type=submit].btn-block {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
     -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
+    transition: opacity .15s linear;
 }
 
 .fade.in {
@@ -5078,13 +5078,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-header {
-        float: left;
+        float: left
     }
 }
 
 @media (max-width:443px) {
     img {
-        width: 200px;
+        width: 200px
     }
 }
 
